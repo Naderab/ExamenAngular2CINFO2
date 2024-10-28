@@ -4,8 +4,10 @@ import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import AppRoutingModule from './app-routing.module';
+import { AddvoyageComponent } from './addvoyage/addvoyage.component';
+import { ListvoyageComponent } from './listvoyage/listvoyage.component';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AddvoyageComponent, ListvoyageComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
