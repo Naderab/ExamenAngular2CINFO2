@@ -12,4 +12,16 @@ export class VoyageService {
   addVoyage(voyage: Voyage) {
     return this.http.post('http://localhost:3000/voyage', voyage);
   }
+
+  getVoyages() {
+    return this.http.get<Voyage[]>('http://localhost:3000/voyage');
+  }
+
+  updateVoyage(id: number, voyage: Voyage) {
+    return this.http.put('http://localhost:3000/voyage/'+id,voyage);
+  }
+
+  getVoyageById(id: number) {
+    return this.http.get<Voyage>('http://localhost:3000/voyage/' + id);
+  }
 }

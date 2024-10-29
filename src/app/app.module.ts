@@ -6,8 +6,9 @@ import { HttpClientModule } from '@angular/common/http';
 import AppRoutingModule from './app-routing.module';
 import { AddvoyageComponent } from './addvoyage/addvoyage.component';
 import { ListvoyageComponent } from './listvoyage/listvoyage.component';
+import { DetailsVoyageComponent } from './details-voyage/details-voyage.component';
 @NgModule({
-  declarations: [AppComponent, AddvoyageComponent, ListvoyageComponent],
+  declarations: [AppComponent, AddvoyageComponent, ListvoyageComponent, DetailsVoyageComponent],
   imports: [
     BrowserModule,
     HttpClientModule,

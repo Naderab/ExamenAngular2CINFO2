@@ -5,8 +5,16 @@
       "description": "Test",
       "depart": "Vdepart",
       "arrive": "Varrive",
-      "nb_place": null,
-      "nb_view": 0
+      "nb_place": 0,
+      "nb_view": 4
+    },
+    {
+      "id": "dc0d",
+      "description": "Voyage 2",
+      "depart": "Vdepart",
+      "arrive": "Varrive",
+      "nb_place": 6,
+      "nb_view": 4
     }
   ]
 }
